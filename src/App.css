@@ -53,3 +53,29 @@ tbody td:hover:before {
   background-color: rgba(255, 255, 255, 0.2);
   z-index: -1;
 }
+
+.pagination {
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #55608f;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  color: #fff;
+}
